@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "clean": "del-cli ./dist ./.parcel-cache",
-    "build": "parcel build ./src/index.html --public-url ./ --dist-dir build"
+    "clean": "del-cli ./dist ./.parcel-cache ./docs",
+    "build": "parcel build ./src/index.html --public-url ./ --dist-dir docs --public-url ./"
   },
   "keywords": [],
   "author": "Sebastian",
